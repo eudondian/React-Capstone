@@ -22,7 +22,7 @@ a:hover {
 }
 
 .card {
-  background-color: pink;
+  background-color: pink !important;
 }
 
 .card:nth-child(3n - 2) {
