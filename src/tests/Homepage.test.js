@@ -3,7 +3,7 @@ import Renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from '../app/store';
-import Homepage from '../components';
+import Homepage from '../components/Homepage';
 
 test('Homepage displays', () => {
   const tree = Renderer.create(

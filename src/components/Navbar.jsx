@@ -1,4 +1,3 @@
-/* eslint-disable semi */
 import React, { useState, useEffect } from 'react';
 import { Typography } from 'antd';
 import { Link } from 'react-router-dom';
@@ -35,15 +34,19 @@ const Navbar = () => {
       {activeMenu && (
         <nav className="menu">
           <div>
-            <Link to="/" className="menu-link">Home</Link>
+            <Link to="/" className="menu-link">
+              Home
+            </Link>
           </div>
           <div>
-            <Link to="/cryptocurrencies" className="menu-link">Cryptocurrencies</Link>
+            <Link to="/cryptocurrencies" className="menu-link">
+              Cryptocurrencies
+            </Link>
           </div>
         </nav>
       )}
     </div>
   );
-}
+};
 
 export default Navbar;
