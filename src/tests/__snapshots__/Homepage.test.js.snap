@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage displays 1`] = `
+<div
+  className="container"
+>
+  <h3
+    className="ant-typography title"
+    onClick={null}
+    style={
+      Object {
+        "WebkitLineClamp": undefined,
+      }
+    }
+  >
+    World Crypto Statistics
+  </h3>
+  <div
+    className="home-heading-container"
+  >
+    <h4
+      className="ant-typography home-title"
+      onClick={null}
+      style={
+        Object {
+          "WebkitLineClamp": undefined,
+        }
+      }
+    >
+      Top 12 Cryptocurrencies in the World
+    </h4>
+    <h1
+      className="ant-typography show-more"
+      onClick={null}
+      style={
+        Object {
+          "WebkitLineClamp": undefined,
+        }
+      }
+    >
+      <a
+        href="/cryptocurrencies"
+        onClick={[Function]}
+      >
+        Show More
+      </a>
+    </h1>
+  </div>
+  <div
+    className="loader"
+  >
+    <div
+      aria-busy={true}
+      aria-live="polite"
+      className="ant-spin ant-spin-spinning"
+    >
+      <span
+        className="ant-spin-dot ant-spin-dot-spin"
+      >
+        <i
+          className="ant-spin-dot-item"
+        />
+        <i
+          className="ant-spin-dot-item"
+        />
+        <i
+          className="ant-spin-dot-item"
+        />
+        <i
+          className="ant-spin-dot-item"
+        />
+      </span>
+    </div>
+  </div>
+</div>
+`;
