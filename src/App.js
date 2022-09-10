@@ -4,6 +4,7 @@ import { Layout, Space } from 'antd';
 
 import { Navbar, Cryptocurrencies } from './components';
 import Homepage from './components/Homepage';
+import CryptoDetails from './components/CryptoDetails';
 import './App.css';
 
 const App = () => (
@@ -17,6 +18,7 @@ const App = () => (
           <Routes>
             <Route exact path="/" element={<Homepage />} />
             <Route exact path="/cryptocurrencies" element={<Cryptocurrencies />} />
+            <Route exact path="/cryptodetails" element={<CryptoDetails />} />
           </Routes>
         </div>
       </Layout>
