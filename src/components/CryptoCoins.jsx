@@ -20,6 +20,7 @@ const CryptoCoins = ({ simplified }) => {
 
     setCrypto(filteredCoins);
   }, [cryptoList, searchCoin]);
+
   if (isFetching) return <Loader />;
 
   return (
@@ -43,7 +44,7 @@ const CryptoCoins = ({ simplified }) => {
               className="crypto-card"
               key={currency.id}
             >
-              <Link to={`/crypto/${currency.id}`} className="link">
+              <Link to="/cryptodetails" className="link">
                 <Card
                   className="card"
                   title={`${currency.rank}.${currency.name}`}

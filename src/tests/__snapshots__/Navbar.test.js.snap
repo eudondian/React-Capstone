@@ -45,6 +45,15 @@ exports[`Navbar displays 1`] = `
         Cryptocurrencies
       </a>
     </div>
+    <div>
+      <a
+        className="menu-link"
+        href="/cryptodetails"
+        onClick={[Function]}
+      >
+        Crypto Details
+      </a>
+    </div>
   </nav>
 </div>
 `;

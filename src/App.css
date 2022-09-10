@@ -18,11 +18,11 @@
 }
 
 a:hover {
-  color: rgb(8, 7, 64);
+  color: rgb(8, 7, 64) !important;
 }
 
 .card {
-  background-color: pink;
+  background-color: pink !important;
 }
 
 .card:nth-child(3n - 2) {
@@ -37,6 +37,10 @@ a:hover {
   display: flex;
   overflow: hidden;
   background-color: pink;
+}
+
+.select-news {
+  display: none;
 }
 
 .title,

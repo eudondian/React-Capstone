@@ -43,6 +43,11 @@ const Navbar = () => {
               Cryptocurrencies
             </Link>
           </div>
+          <div>
+            <Link to="/cryptodetails" className="menu-link">
+              Crypto Details
+            </Link>
+          </div>
         </nav>
       )}
     </div>

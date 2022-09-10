@@ -4,12 +4,15 @@
 This is an application that consumes data from a Crypto API called CoinRanking. The app is used for rating crypto coins. The highest rating coin is  based on it's market value.
 ## Live Demo
 
+
+[Live Demo](https://deploy-preview-8--elaborate-sherbet-f77f58.netlify.app/)
+=======
 ![Screenshot (146)](https://user-images.githubusercontent.com/90483434/189490183-e811ab5e-1c0f-4c2d-9b37-2693c7ed5fbe.png)
 
 
 -[Live Demo](https://dreamy-marshmallow-5575c8.netlify.app)
 
--[Video]([https://dreamy-marshmallow-5575c8.netlify.app](https://www.loom.com/share/a2d4378e5728467fa49aa3a1ee7e46ee)
+
 
 ## Built With
 
