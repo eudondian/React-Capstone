@@ -3,7 +3,6 @@ import { Typography } from 'antd';
 import { Link } from 'react-router-dom';
 
 import Cryptocurrencies from './CryptoCoins';
-import CryptoDetails from './CryptoDetails';
 
 const { Title } = Typography;
 
@@ -23,7 +22,6 @@ const Homepage = () => (
       </div>
       <Cryptocurrencies simplified />
     </div>
-    <CryptoDetails simplified />
   </>
 );
 
