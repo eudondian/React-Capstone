@@ -39,6 +39,10 @@ a:hover {
   background-color: pink;
 }
 
+.select-news {
+  display: none;
+}
+
 .title,
 .home-title {
   font-weight: bolder;
