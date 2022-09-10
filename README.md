@@ -1,15 +1,15 @@
 # React Capstone Project
 
 
-This is an application that consumes data from a Crypto API called CoinRanking. The app is used for rating crypto coinss. The highest rating coin is  based on it's market value.
+This is an application that consumes data from a Crypto API called CoinRanking. The app is used for rating crypto coins. The highest rating coin is  based on it's market value.
 ## Live Demo
 
-[Live Demo]()
+[Live Demo](https://dreamy-marshmallow-5575c8.netlify.app)
 
 ## Built With
 
 - Javascript
-- Bootstrap
+- Actd
 - React
 - Redux
 - Jest
