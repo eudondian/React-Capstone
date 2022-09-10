@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar displays 1`] = `
+<div
+  className="nav-container"
+>
+  <div
+    className="logo-con"
+  >
+    <h3
+      className="ant-typography"
+      onClick={null}
+      style={
+        Object {
+          "WebkitLineClamp": undefined,
+        }
+      }
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        CryptoChart
+      </a>
+    </h3>
+  </div>
+  <nav
+    className="menu"
+  >
+    <div>
+      <a
+        className="menu-link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </div>
+    <div>
+      <a
+        className="menu-link"
+        href="/cryptocurrencies"
+        onClick={[Function]}
+      >
+        Cryptocurrencies
+      </a>
+    </div>
+  </nav>
+</div>
+`;
