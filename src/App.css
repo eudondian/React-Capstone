@@ -39,6 +39,10 @@ a:hover {
   background-color: pink;
 }
 
+.select-news {
+  display: none;
+}
+
 .title,
 .home-title {
   font-weight: bolder;
@@ -124,11 +128,6 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-
-.select-news {
-  display: none;
-}
-
 
 @media screen and (max-width: 1300px) {
   .main {
