@@ -22,11 +22,11 @@ a:hover {
 }
 
 .card {
-  background-color: pink;
+  background-color: pink !important;
 }
 
 .card:nth-child(3n - 2) {
-  background-color: rgb(241, 134, 134);
+  background-color: rgb(241, 134, 134) ;
 }
 
 .container {
